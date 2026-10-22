@@ -1,0 +1,20 @@
+[package]
+name = "temps_libre"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Gestionnaire de collection de montres"
+
+[dependencies]
+eframe = "0.28"
+egui = "0.28"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+image = "0.25"
+rfd = "0.14"
+rand = "0.8"
+ureq = "2"
+regex = "1"
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+open = "5"
